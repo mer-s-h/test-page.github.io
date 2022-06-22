@@ -1,0 +1,111 @@
+header {
+    width: 1000px;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    justify-items: center;
+}
+
+
+.ingredient {
+    height: 40px;
+    width: 40px;
+}
+
+#receipts {
+    display: flex;
+}
+
+.receipts {
+    background-color: rgba(143, 139, 139, 0.601);
+    border-radius: 5px;
+    border: none;
+    margin: 5px;
+    height: 50px;
+    width: 50px;
+}
+
+#btn_green {
+    background-color: #00aa37;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    margin: 5px;
+    height: 50px;
+    width: 125px;
+}
+
+.ingredient_btn {
+    background-color: #00aa37;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    margin: 5px;
+    height: 20px;
+    width: 50px;
+}
+
+.picked_ingredient {
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+}
+
+#gateau_result {
+    height: 300px;
+    width: 250px;
+}
+
+.gateau_stocker{
+    height: 200px;
+    width: 150px;
+}
+
+.down {
+    width: 1000px;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    justify-items: center;
+}
+
+.existing_receipts{
+    display: flex;
+}
+.receipts_section_left{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#up{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+/* #new_reciepts * {
+    background-color: rgba(143, 139, 139, 0.601);
+
+    border: none;
+    height: max-content;
+    max-width: 50px;
+    min-width: 20px;
+}
+#new_reciepts{
+    background-color: rgba(143, 139, 139, 0.601);
+    display: flex;
+}
+ p{
+    margin: 0px;
+    height: 20px;
+ } */
+
+
+
+
+footer {
+    height: 300px;
+}
